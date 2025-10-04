@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consen Renovation Construction | Renovation & Construction Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://crcjj.vercel.app/pictures/logo3.png">
+</head>
+<body class="bg-slate-100 text-slate-800">
+
+<!-- Header & Navigation -->
+<header class="bg-yellow-100 fixed top-0 left-0 right-0 z-50">
+  <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+    
+    <!-- LOGO -->
+    <a href="#home" class="flex items-center space-x-4">
+        <img src="https://crcjj.vercel.app/pictures/logo3.png" 
+        alt="Consen Renovation Construction Logo"
+        class="h-16 w-16 object-cover">
+        <span class="text-xl font-bold text-slate-800 hidden sm:block">Consen Renovation Construction</span>
+    </a>
+
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex items-center space-x-8">
+      <a href="#about" class="nav-link text-slate-600 hover:text-amber-500 font-medium transition duration-300">About Us</a>
+      <a href="#services" class="nav-link text-slate-600 hover:text-amber-500 font-medium transition duration-300">Services</a>
+      <a href="#gallery" class="nav-link text-slate-600 hover:text-amber-500 font-medium transition duration-300">Projects</a>
+      <a href="#contact" class="bg-amber-500 text-white px-5 py-2 rounded-full hover:bg-amber-600 font-bold transition duration-300 glow-on-hover">Contact Us</a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <div class="md:hidden">
+      <button id="menu-btn" class="text-slate-700 focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+    </div>
+    
+  </nav>
+  <!-- Mobile Menu -->
+<div id="mobile-menu" class="hidden md:hidden bg-white text-center px-6 pt-2 pb-4 space-y-2">
+  <a href="#about" class="block text-slate-600 hover:text-amber-500 py-2">About Us</a>
+  <a href="#services" class="block text-slate-600 hover:text-amber-500 py-2">Services</a>
+  <a href="#gallery" class="block text-slate-600 hover:text-amber-500 py-2">Projects</a>
+  <a href="#contact" class="block bg-amber-500 text-white px-5 py-2 rounded-full hover:bg-amber-600 text-center mt-2">Contact Us</a>
+</div>
+</header>
+
+<main>
+<!-- Hero Section -->
+<section id="home" 
+    class="relative text-white min-h-[500px] md:min-h-[600px] flex items-center pt-20 
+           bg-[url('https://wallpaperaccess.com/full/937110.jpg')] bg-cover bg-center">
+
+    <!-- Overlay (transparent layer) -->
+    <div class="absolute inset-0 bg-black/60"></div>
+
+    <div class="relative container mx-auto px-6 text-center">
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6 reveal reveal-up">
+            Consen Renovation Construction
+        </h1>
+        <p class="text-lg md:text-xl text-slate-200 mb-8 max-w-3xl mx-auto reveal reveal-up" style="transition-delay: 200ms;">
+            Professional renovation and construction services, creating your ideal residential and commercial spaces with 25 years of proven experience.
+        </p>
+        <a href="#contact" 
+           class="bg-orange-500 text-white font-bold py-3 px-8 rounded-full hover:bg-orange-600 transition duration-300 text-lg reveal reveal-up glow-on-hover" 
+           style="transition-delay: 400ms;">
+           Get a Free Quote
+        </a>
+    </div>
+</section>
+
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-yellow-100 overflow-hidden">
+        <div class="container mx-auto px-6 reveal reveal-up">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900">About Us</h2>
+                <div class="w-24 h-1 bg-amber-500 mx-auto mt-4"></div>
+            </div>
+            <p class="max-w-4xl mx-auto text-center text-slate-600 text-lg leading-relaxed">
+                Consen Renovation Construction is a professional renovation and construction company dedicated to providing clients with high-quality, reliable solutions. Whether for residential, office, or commercial spaces, we offer a full range of services from design to completion. Our experienced team focuses on detail and safety, ensuring every project is completed on time and to the highest standards. With integrity, innovation, and client satisfaction at our core, we are your trusted partner.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-yellow-200 overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 reveal reveal-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Our Services</h2>
+                <p class="text-slate-600 mt-2">Comprehensive solutions tailored to your needs.</p>
+                <div class="w-24 h-1 bg-amber-500 mx-auto mt-4"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Item 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center transition-all duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-2 reveal reveal-up">
+                    <h3 class="text-2xl font-bold text-amber-600">Residential Renovation</h3>
+                    <p class="text-slate-600 mt-4">New home construction, old house remodeling, extensions, interior design, kitchen and bathroom renovations, plumbing, and electrical installation.</p>
+                </div>
+                <!-- Service Item 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center transition-all duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-2 reveal reveal-up" style="transition-delay: 200ms;">
+                    <h3 class="text-2xl font-bold text-amber-600">Commercial & Office Spaces</h3>
+                    <p class="text-slate-600 mt-4">Office renovations, shop makeovers, partitioning, ceiling and flooring work, and custom furniture.</p>
+                </div>
+                <!-- Service Item 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center transition-all duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-2 reveal reveal-up" style="transition-delay: 400ms;">
+                    <h3 class="text-2xl font-bold text-amber-600">Construction & Structural Works</h3>
+                    <p class="text-slate-600 mt-4">Roofing, waterproofing, wall works, coring, structural reinforcement, and civil engineering.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Gallery Section -->
+    <section id="gallery" class="py-24 bg-green-100 overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 reveal reveal-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Our Projects</h2>
+                <p class="text-slate-600 mt-2">A glimpse into our quality workmanship.</p>
+                <div class="w-24 h-1 bg-amber-500 mx-auto mt-4"></div>
+            </div>
+            
+            <div class="space-y-20">
+                <!-- Roofing Slider -->
+                <div class="reveal reveal-zoom">
+                    <h3 class="text-2xl font-bold text-center mb-8 text-slate-800">Roofing</h3>
+                    <div class="swiper project-slider relative pb-12">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Roofing/1.1 (1).jpg" alt="Roofing 1" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Roofing/1.1 (2).jpg" alt="Roofing 2" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Roofing/1.1 (3).jpg" alt="Roofing 3" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Roofing/1.1 (4).jpg" alt="Roofing 4" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Roofing/1.1 (5).jpg" alt="Roofing 5" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Roofing/1.1 (6).jpg" alt="Roofing 6" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Roofing/1.1 (7).jpg" alt="Roofing 7" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Roofing/1.1 (8).jpg" alt="Roofing 8" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Roofing/1.1 (9).jpg" alt="Roofing 9" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+
+                <!-- Construction Slider -->
+                <div class="reveal reveal-zoom">
+                    <h3 class="text-2xl font-bold text-center mb-8 text-slate-800">Construction</h3>
+                    <div class="swiper project-slider relative pb-12">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (1).jpg" alt="Construction 1" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (2).jpg" alt="Construction 2" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (3).jpg" alt="Construction 3" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (4).jpg" alt="Construction 4" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (5).jpg" alt="Construction 5" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (6).jpg" alt="Construction 6" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (7).jpg" alt="Construction 7" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (8).jpg" alt="Construction 8" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (9).jpg" alt="Construction 9" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (10).jpg" alt="Construction 10" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (11).jpg" alt="Construction 11" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (12).jpg" alt="Construction 12" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (13).jpg" alt="Construction 13" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (14).jpg" alt="Construction 14" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (15).jpg" alt="Construction 15" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (16).jpg" alt="Construction 16" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (17).jpg" alt="Construction 17" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (18).jpg" alt="Construction 18" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (19).jpg" alt="Construction 19" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (20).jpg" alt="Construction 20" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (21).jpg" alt="Construction 21" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (22).jpg" alt="Construction 22" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (23).jpg" alt="Construction 23" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (24).jpg" alt="Construction 24" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (25).jpg" alt="Construction 25" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (26).jpg" alt="Construction 26" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Construction/2.1 (27).jpg" alt="Construction 27" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+
+                <!-- Coring Slider -->
+                <div class="reveal reveal-zoom">
+                    <h3 class="text-2xl font-bold text-center mb-8 text-slate-800">Coring</h3>
+                    <div class="swiper project-slider relative pb-12">
+                        <div class="swiper-wrapper">
+                            <!-- Video Slide -->
+                             <div class="swiper-slide relative">
+                                <video poster="https://static.vecteezy.com/system/resources/previews/007/743/118/original/click-here-button-with-hand-pointer-clicking-icon-free-vector.jpg" controls class="w-full h-80 rounded-lg shadow-md object-cover bg-black">
+                                    <source src="https://crcjj.vercel.app/pictures/Coring/3.2.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div class="swiper-slide relative">
+                                <video poster="https://static.vecteezy.com/system/resources/previews/007/743/118/original/click-here-button-with-hand-pointer-clicking-icon-free-vector.jpg" controls class="w-full h-80 rounded-lg shadow-md object-cover bg-black">
+                                    <source src="https://crcjj.vercel.app/pictures/Coring/3.3.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Coring/3.1 (1).jpg" alt="Coring 1" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Coring/3.1 (2).jpg" alt="Coring 2" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Coring/3.1 (3).jpg" alt="Coring 3" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Coring/3.1 (4).jpg" alt="Coring 4" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Coring/3.1 (5).jpg" alt="Coring 5" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+
+                <!-- Skilled Operator Slider -->
+                <div class="reveal reveal-zoom">
+                    <h3 class="text-2xl font-bold text-center mb-8 text-slate-800">Excavator</h3>
+                    <div class="swiper project-slider relative pb-12">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Excavator/4.1 (1).jpg" alt="Operator 1" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Excavator/4.1 (2).jpg" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Excavator/4.1 (3).jpg" alt="Operator 3" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Excavator/4.1 (4).jpg" alt="Operator 4" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Excavator/4.1 (5).jpg" alt="Operator 5" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Excavator/4.1 (6).jpg" alt="Operator 6" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Excavator/4.1 (7).jpg" alt="Operator 7" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Excavator/4.1 (8).jpg" alt="Operator 8" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Excavator/4.1 (9).jpg" alt="Operator 9" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                            <div class="swiper-slide"><img src="https://crcjj.vercel.app/pictures/Excavator/4.1 (10).jpg" alt="Operator 10" class="w-full h-80 rounded-lg shadow-md object-cover cursor-pointer transition-transform duration-300 hover:scale-105"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-90 hidden z-50 flex items-center justify-center p-4 transition-opacity duration-300">
+        <div class="relative max-w-4xl max-h-full">
+            <button id="closeModal" class="absolute -top-12 right-0 md:top-0 md:-right-12 text-white text-4xl hover:text-slate-300 transition-colors z-10">
+                &times;
+            </button>
+            <img id="modalImage" src="" alt="Project Image" class="max-w-full max-h-[90vh] rounded-lg shadow-2xl">
+        </div>
+    </div>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-slate-900 text-white overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 reveal reveal-up">
+                <h2 class="text-3xl md:text-4xl font-bold">Contact Us</h2>
+                <p class="text-slate-300 mt-2">Ready to start your next project? Contact us today!</p>
+                <div class="w-24 h-1 bg-amber-500 mx-auto mt-4"></div>
+            </div>
+            <div class="max-w-4xl mx-auto bg-slate-800 p-8 md:p-12 rounded-lg shadow-2xl reveal reveal-up" style="transition-delay: 200ms;">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-center">
+                    <!-- Contact Details -->
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-xl font-semibold text-amber-400 mb-2">Email Us</h3>
+                            <a href="mailto:buildingconstruction@hotmail.com" class="text-slate-200 hover:text-white break-all">buildingconstruction@hotmail.com</a>
+                        </div><br>
+                        <div>
+                            <h3 class="text-xl font-semibold text-amber-400 mb-2 mt-4">Call or WhatsApp</h3>
+                            <p class="text-lg text-slate-200">016-3286180</p>
+                        </div>
+                    </div>
+                    <!-- Location Details -->
+                    <div class="space-y-6">
+                         <div>
+                            <h3 class="text-xl font-semibold text-amber-400 mb-2">Our Office</h3>
+                            <p class="text-lg text-slate-200 leading-relaxed">No 21 Taman Orkid <br>Jalan By Pass Port Dickson</p>
+                        </div>
+                         <div>
+                            <h3 class="text-xl font-semibold text-amber-400 mb-2">Service Area</h3>
+                            <p class="text-lg text-slate-200">Covering Peninsular and East Malaysia</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Social Links -->
+                <div class="mt-12 pt-8 border-t border-slate-700">
+                    <h3 class="text-xl text-center font-semibold text-amber-400 mb-6">Connect With Us</h3>
+                    <div class="flex justify-center items-center space-x-6">
+                
+                <!-- WhatsApp -->
+                <a href="https://wa.me/60163286180" target="_blank" rel="noopener noreferrer"
+                class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-green-500 hover:bg-green-400 transition-transform duration-300 hover:scale-110 shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-6 h-6 fill-white">
+                        <path d="M380.9 97.1C339 55.2 283.2 32 224.6 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.2 29.6 110.8L0 480l118.5-31.1c32.5 17.8 69.2 27.2 106.1 27.2h.1c122.4 0 222-99.6 222-222 0-58.6-23.2-114.4-65.1-156.2zM224.6 438.6c-31.6 0-62.6-8.5-89.7-24.5l-6.4-3.8-70.3 18.4 18.8-68.6-4.1-7c-18.1-30.7-27.7-66-27.7-102.1 0-110.2 89.6-199.8 199.8-199.8 53.4 0 103.6 20.8 141.4 58.6 37.7 37.7 58.6 87.9 58.6 141.3 0 110.2-89.6 199.8-199.8 199.8zm110.6-150.8c-6.1-3-36.1-17.8-41.7-19.9-5.6-2.1-9.7-3-13.8 3s-15.9 19.9-19.5 23.9-7.2 4.5-13.3 1.5c-36.1-18.1-59.7-32.3-83.3-73-6.3-10.9 6.3-10.1 18.1-33.6 2-4.1 1-7.6-.5-10.6-1.5-3-13.8-33.1-18.9-45.4-5-12.1-10.1-10.4-13.8-10.6-3.6-.2-7.6-.2-11.7-.2s-10.6 1.5-16.1 7.6c-5.6 6.1-21.1 20.6-21.1 50.2s21.6 58.2 24.6 62.2c3 4.1 42.6 65.1 103.2 91.2 14.4 6.2 25.6 9.9 34.4 12.7 14.4 4.6 27.5 3.9 37.9 2.4 11.6-1.7 36.1-14.8 41.2-29.1 5.1-14.3 5.1-26.5 3.6-29.1-1.5-2.6-5.6-4.1-11.7-7.1z"/>
+                    </svg>
+                </a>
+                        </a>
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/profile.php?id=61578381303328" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-400 transition-transform duration-300 hover:scale-110">
+                           <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33V21.878A10.001 10.001 0 0022 12z" clip-rule="evenodd" />
+                           </svg>
+                        </a>
+                        <!-- Google Maps -->
+                        <a href="https://maps.app.goo.gl/VRs3LMv9kG2VjTfi9" target="_blank" rel="noopener noreferrer" class="text-red-500 hover:text-red-400 transition-transform duration-300 hover:scale-110">
+                           <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                               <path d="M12 2C8.13 2 5 5.13 5 9c0 4.17 4.42 9.92 6.24 12.11.4.48 1.13.48 1.53 0C14.58 18.92 19 13.17 19 9c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                           </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-slate-900 border-t border-slate-800 text-slate-400 py-6">
+    <div class="container mx-auto px-6 text-center">
+        <p>&copy; 2024 Consen Renovation Construction. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="effect.js"></script>
+</body>
+</html>
+
