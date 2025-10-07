@@ -10,21 +10,21 @@
 
   <!-- About Page -->
   <url>
-    <loc>https://consen.my/about</loc>
+    <loc>https://consen.my/#about</loc>
     <lastmod>2025-10-01</lastmod>
     <priority>0.8</priority>
   </url>
 
-  <!-- Projects Page -->
+  <!-- Services Page -->
   <url>
-    <loc>https://consen.my/projects</loc>
+    <loc>https://consen.my/#services</loc>
     <lastmod>2025-10-01</lastmod>
     <priority>0.8</priority>
   </url>
 
-  <!-- Contact Page -->
+  <!-- Gallery Page -->
   <url>
-    <loc>https://consen.my/contact</loc>
+    <loc>https://consen.my/#gallary</loc>
     <lastmod>2025-10-01</lastmod>
     <priority>0.7</priority>
   </url>
